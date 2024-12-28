@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 64, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: rgb(11, 70, 87);
+    border-radius: 10px;
+    position: absolute;
+   display: flex;
+   flex-direction: column;
+   margin: 20px 30px;
+   padding: 20px 40px;
+   width: 400px;
+ 
+
+   
+}
+.title h1{
+    color: rgb(228, 223, 223);
+    font-family: serif;
+    font-size: 40px;
+
+   
+  
+}
+.text textarea {
+    background-color: rgb(14, 64, 78);
+    flex-grow: none;
+    position: relative;
+    border: none;
+    outline: none;
+   height: 200PX;
+    width: 100%;
+   margin-top: 20px ;
+   resize: none;
+   color: rgb(228, 223, 223);
+   font-size: 17px;
+   padding: 10px;
+}
+.text textarea::placeholder{
+    color: #BDC3C7;
+}
+.text p{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(228, 223, 223);
+    font-family: serif;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.text p .counter{
+    font-size: 40px;
+    color: aqua;
+    font-weight:bold;
+
+}
